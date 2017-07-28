@@ -241,5 +241,67 @@ h1
 }
 
 
+@media (min-width: 500px)
+{
+	header
+	{
+		padding:				3% 6% 3% 6%;				
+	}
+	
+	footer
+	{
+		padding:				2.25%;
+	}
+	
+	
+	#SEC01
+	{
+		padding:				3%;
+	}
+	
+	.SECT01
+	{
+		padding: 				4% 6% 4% 6%;
+	}
+	
+	.SECT02
+	{
+		padding: 				3% 6% 3% 6%;
+	}
+	
+	.H2T01
+	{
+		font-size: 				4.5vh;
+		opacity:				.3;
+	}
+	
+	
+	h1
+	{
+		font-size:				9vh;		
+	}
+	
+	.H2T02
+	{
+		font-size:				3vh;
+	}
+	
+	.H5T01
+	{
+		font-size:				1.75vh;
+	}
+	
+	
+	.PAT01
+	{
+		font-size:				3vh;
+		line-height: 			3.5vh;
+	}
+	.LOGT01
+	{
+		height:					12vh;
+	}
+}
+
 
 
