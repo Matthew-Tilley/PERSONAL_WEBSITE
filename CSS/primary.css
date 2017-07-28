@@ -101,7 +101,7 @@ h1
 .H2T01
 {
 	font-family: 				'Audiowide', cursive;
-	font-size:					2.75vh;
+	font-size:					2.5vh;
 	color:						whitesmoke;
 	
 	opacity:					.5;
@@ -170,6 +170,76 @@ h1
 {
 	height:						6vh;
 }
+
+
+
+
+/********* MEDIA QUERIES *********/
+
+@media (min-width: 400px)
+{
+	/********* ELEMENT SECTIONS *********/
+	
+	header
+	{
+		padding:				4%;
+	}
+	
+	
+	/********* DESIGNATED SECTIONS (SEC) *********/
+	
+	#SEC01
+	{
+	
+		background-image: 			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_SNDDUN_MED.jpg");
+	
+	}
+
+	
+	
+	/********* HEADINGS FONTS & TEXT *********/
+	
+	h1
+	{
+		font-size: 				7.5vh;		
+	}
+	
+	.H2T01
+	{
+		font-size:				3.5vh;
+		opacity:				.4;
+	}
+	
+	.H2T02
+	{
+		font-size:				2.5vh;
+	}
+	
+	.H5T01
+	{
+		font-size:				1.5vh;
+	}
+	
+	.PAT01
+	{
+		font-size: 				2.75vh;
+	}
+	
+		
+	/********* LOGOS (LOG) *********/
+	
+	.LOGT01
+	{
+		height:					11vh;
+	}
+	
+	.LOGT02
+	{
+		height:					8vh;
+	}
+	
+}
+
 
 
 
