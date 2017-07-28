@@ -1,0 +1,112 @@
+*
+{
+	margin:						0;
+	padding:					0;
+	font-size: 					10px;
+}
+
+
+body
+{
+	background-color:			#303030;
+}
+
+
+header
+{
+	display:					flex;
+	justify-content: 			space-between;
+	align-items: 				center;
+	
+	padding:					5%;
+	
+	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/BGT_GRYLTHR_SML.jpg");
+	background-repeat:			no-repeat;
+	background-size: 			cover;
+}
+
+
+#SEC01
+{
+	display:					flex;
+	justify-content: 			center;
+	align-items: 				flex-end;
+	
+	height:						25vh;
+	padding:					5%;
+	
+	background-image: 			url("../ASSETS/IMAGES/BACKGROUNDS/LANDSCAPES/BGL_SNDDUN_SML.jpg");
+	background-repeat: 			no-repeat;
+	background-size: 			cover;
+}
+
+.SECT01
+{
+	padding:					7% 5% 7% 5%;
+}
+
+.SECT02
+{
+	padding:					6% 5% 6% 5%;
+	
+	
+	
+	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/BGT_GRYCONC_SML.jpg");
+}
+
+.LOCT01
+{
+	display:					flex;
+	flex-direction: 			column;
+	justify-content: 			space-around;
+	align-items: 				center;
+}
+
+
+h1
+{
+	font-family: 				'Audiowide', cursive;
+	font-size:					6vh;
+	color:						darkgray;
+	
+	opacity: 					.4;
+}
+
+.H2T01
+{
+	font-family: 				'Audiowide', cursive;
+	font-size:					2.75vh;
+	color:						whitesmoke;
+	
+	opacity:					.5;
+}
+
+.PAT01
+{
+	text-align: 				justify;
+	font-family: 				'Poppins', sans-serif;
+	font-size:					2.5vh;
+	color:						darkgray;
+}
+
+
+.BUTT01
+{
+	width:						100%;
+	margin:						3% 0 3% 0;
+	padding:					3%;
+	
+
+	font-family: 				'Audiowide', cursive;
+	font-size: 					4vh;
+	color:						#767676;
+	
+	border:						none;
+	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/BGT_BLULTHR_SML.jpg");
+	background-repeat:			no-repeat;
+	background-size:			cover;
+	
+	
+}
+
+
