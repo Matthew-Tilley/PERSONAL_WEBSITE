@@ -64,6 +64,8 @@ footer
 	
 	
 	background-image:			url("../ASSETS/IMAGES/BACKGROUNDS/TEXTURES/BGT_GRYCONC_SML.jpg");
+	background-repeat:			no-repeat;
+	background-size:			cover;
 }
 
 
@@ -100,6 +102,7 @@ h1
 
 .H2T01
 {
+	text-shadow: 				3px 2px black;
 	font-family: 				'Audiowide', cursive;
 	font-size:					2.5vh;
 	color:						whitesmoke;
@@ -301,6 +304,56 @@ h1
 	{
 		height:					12vh;
 	}
+}
+
+
+@media (min-width: 550px)
+{
+	header
+	{
+		display:					grid;
+		grid-template-areas: 		"LOG01 H101 BUT01 BUT02";
+	}
+	
+	.SECT02
+	{
+		display:					none;
+	}
+	
+	
+	.LOGT01
+	{
+		grid-area:					LOGT01;
+	}
+	
+	#LOG01
+	{
+		grid-area:					LOG01;
+	}
+	
+	#H101
+	{
+		grid-area:					H101;
+	}
+	
+	
+	
+	
+	
+	
+	
+	#BUT01
+	{
+		grid-area:					BUT01;
+	}
+	
+	#BUT02
+	{
+		grid-area:					BUT02;
+	}
+	
+	
+	
 }
 
 
